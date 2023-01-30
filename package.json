@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy:build": "open-next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,5 +21,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
-  }
+  },
+  "packageManager": "yarn@3.3.1"
 }
