@@ -38,9 +38,11 @@ next-env.d.ts
 .open-next
 
 .yarn/*
-!.yarn/cache
 !.yarn/patches
-!.yarn/plugins
 !.yarn/releases
+!.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
+.pnp.*
+
+.terragrunt-cache/*
