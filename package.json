@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "build": "next build",
+    "deploy": "sst deploy --stage prod",
     "deploy:build": "open-next build",
     "start": "next start",
     "lint": "next lint"
@@ -23,7 +24,8 @@
   },
   "packageManager": "yarn@3.3.1",
   "devDependencies": {
-    "aws-cdk-lib": "2.79.1",
-    "constructs": "10.1.156"
+    "aws-cdk-lib": "^2.83.1",
+    "constructs": "10.1.156",
+    "sst": "^2.13.1"
   }
 }

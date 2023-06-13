@@ -7,5 +7,7 @@ export function middleware(request: NextRequest) {
 
   response.headers.set('x-middleware', 'hello');
 
+  response.cookies.set('test1', 'heelo');
+
   return response;
 }
